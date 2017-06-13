@@ -1,0 +1,32 @@
+GET – Application Information
+http://127.0.0.1/AG_SADCeFarms/application/d3e48b84-af47-4767-b2b2-bbed7ee1bde3
+(application/application_guid)
+
+
+GET – Get all Answer Records for a Specific Application by application_guid
+http://127.0.0.1/AG_SADCeFarms/appanswer/d3e48b84-af47-4767-b2b2-bbed7ee1bde3
+(appanswer/application_guid)
+
+GET – Specific Answer
+http://127.0.0.1/AG_SADCeFarms/appanswer/d3e48b84-af47-4767-b2b2-bbed7ee1bde3/db4fc6fb-b4d6-41ca-8843-aefafd6704c3
+(appanswer/application_guid/question_guid)
+            
+
+POST – Create a new answer record
+http://127.0.0.1/AG_SADCeFarms/appanswer
+
+-> Payload =  {
+                        "application_guid": "d3e48b84-af47-4767-b2b2-bbed7ee1bde3",
+                        "question_guid": "db4fc6fb-b4d6-41ca-8843-aefafd6704c4",
+                        "answer_json": {}
+                     }
+
+PUT – Update answer record
+http://127.0.0.1/AG_SADCeFarms/appanswer
+
+-> Payload =  {
+                        "application_guid": "d3e48b84-af47-4767-b2b2-bbed7ee1bde3",
+                        "question_guid": "db4fc6fb-b4d6-41ca-8843-aefafd6704c4",
+                        "answer_json": {}
+                     }
+
