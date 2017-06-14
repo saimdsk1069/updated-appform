@@ -1,0 +1,23 @@
+[{
+  "type":"SingleSelect",
+  "answer":"Yes"
+},
+
+
+{
+  "type":"MultipleSelect",
+  "answer": ["ChoiceA","ChoiceD"]
+},
+
+
+{
+  "type":"InputFields",
+  "answer": {"cadbadmin":"Mr Smith",
+             			"addr":"155 North St",
+             			"city":"Smithtown",
+             			"state":"NJ",
+             			"zip":"0002",
+             			"email":"smith@email.com",
+             			"phone":"1111112222",
+             			"fax":""}
+}]
